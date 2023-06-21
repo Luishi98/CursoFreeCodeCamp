@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="head">
+      <h1 id="title">Formulario de encuesta</h1>
+      <p id="description">Esto es un formulario de prueba para medir mis capacidades en HTML y CSS</p>
+    </div>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" class="dato">Nombre <input type="text" required id="name" placeholder="Nombre"></label>
+        <label id="email-label" class="dato">Email <input type="email" required id="email" placeholder="E-mail"></label>
+        <label id="number-label" class="dato">Edad (opcional)<input type="number" id="number" placeholder="Número" min="0" max="120"></label>
+      </fieldset>
+      <fieldset>
+        <label>Ocupacion actual
+          <select id="dropdown">
+            <option value="1">Estudiante</opcion>
+            <option value="2">Empleado</opcion>
+            <option value="3">Ninguna</option>
+            <option value="4">Ambas</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Trabajas o estudias algo relacionado a la programación?
+          <label class="check"><input type="radio" name="opcion" value="si" class="option"> Si</label>
+          <label class="check"><input type="radio" name="opcion" value="no" class="option"> No</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label class="check">Que lenguajes dominas?</label>
+        <label class="check"><input type="checkbox" value="html" class="option" class="option"> HTML</label>
+        <label class="check"><input type="checkbox" value="css" class="option"> CSS</label>
+        <label class="check"><input type="checkbox" value="js" class="option"> JS</label>
+        <label class="check"><input type="checkbox" value="python" class="option"> Python</label>
+        <label class="check"><input type="checkbox" value="java" class="option"> Java</label>
+        <label class="check"><input type="checkbox" value="c++" class="option"> C++</label>
+      </fieldset>
+      <label>Comentarios Adicionales
+        <textarea></textarea>
+      </label>
+      <label><input type="submit" id="submit"></label>
+    </form>
+  </body>
+</html>

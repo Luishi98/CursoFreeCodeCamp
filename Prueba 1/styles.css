@@ -1,0 +1,78 @@
+* {
+	font-size: 20px;
+}
+
+body {
+	background-image: url("https://www.deanime.info/wp-content/uploads/2018/11/planeta-kiao-norte-bola-de-dragon-fondo.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#survey-form {
+	position: relative;
+	margin: 0 auto;
+	background-color: #c89c;
+	border-radius: .25rem;
+	width: 500px;
+	padding: 20px;
+}
+
+.head {
+	text-align: center;
+	margin: 30px;
+	color: #555;
+}
+
+label {
+	width: 100%;
+	margin: 10px 0 0 0;
+	color: #fff;
+}
+
+.check {
+	display: inline-block;
+}
+
+.dato input {
+	display: block;
+	width: 100%;
+	margin: 5px 0;
+}
+
+input {
+	height: 35px;
+	border-radius: .25rem;
+	border: 1px solid #a67;
+}
+
+fieldset {
+	border: none;
+}
+
+#dropdown {
+	height: 35px;
+	border-radius: .25rem;
+	border: none;
+	width: 100%;
+	color: #888;
+	margin: 5px 0;
+}
+
+.option {
+	vertical-align: middle;
+	margin: 0 0.5em 0 0;	
+}
+
+#submit {
+	width: 100%;
+	height: 40px;
+	margin: 20px 0;
+}
+
+textarea {
+	width: 100%;
+	height: 80px;
+	resize: none;
+	border-radius: .25rem;
+	border: 1px solid #a67;
+}
